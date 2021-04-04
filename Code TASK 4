@@ -1,0 +1,250 @@
+\documentclass[titlepage,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{pdfpages}
+\usepackage[spanish]{babel}
+\usepackage{ragged2e}
+\usepackage{graphicx}
+
+\title{\textbf{TASK 4}}
+\author{Jairo Andres Mera Lopez \\ \textbf{Escuela Tecnológica Instituto Técnico Central} \\ Sistemas Operativos I \\ Wilmer Lopez Lopez \\ \\ jameralretolau@itc.edu.co}
+\date{17 Marzo 2021}
+
+\begin{document}
+
+\maketitle
+
+\section*{\centering Resumen}
+Para este cuarto reporte de la clase de sistemas operativos i, se verán algunas de las funciones que se ejecutan con diferentes comandos dentro de la consola CMD del sistema operativo además de trabajar en una maquina virtual con el sistema operativo linux ubuntu \\ \\ \textbf{Palabras clave:} Comando, CMD, Linux 
+
+\section*{\centering Abstract}
+For this fourth report of the class of operating systems i, we will see some of the functions that are executed with different commands within the CMD console of the operating system in addition to working in a virtual machine with the Linux Ubuntu operating system.
+\\ \\ \textbf{Keywords:}Command, CMD, Linux
+
+\newpage
+\tableofcontents
+\newpage
+
+\section{Objetivos}
+\begin{itemize}
+\item {\it Experimentar dentro de la consola CMD los diferentes comandos del sistema operativo }
+
+\item {\it Mediante una maquina virtual correr el sistema operativo Linux Ubunto y llevarlo hasta su máxima capacidad}
+
+\item {\it Ilustrar por medio de capturas de pantalla el resultado de los comandos ejecutados en la barra CMD de Windows además de el proceso y resultado de llevar al máximo el sistema operativo Linux Ubuntu}
+\end{itemize}
+
+\newpage
+
+\section{Ciclo 1} 
+\section*{Directorios y funciones de Windows parte 1}
+
+\subsection*{1 Consola CMD} 
+\includegraphics[width=\textwidth]{SS 1.png}
+
+\subsection*{2 Comando HELP}
+\includegraphics[width=\textwidth]{SS 2.png}
+
+\subsection*{3 Comando CLS}
+\includegraphics[width=\textwidth]{SS 3.png}
+
+\includegraphics[width=\textwidth]{SS 4.png}
+     
+\subsection*{4 Comando DIR}  
+\includegraphics[width=\textwidth]{SS 5.png}
+
+\subsection*{5 Comando CD}
+\includegraphics[width=\textwidth]{SS 6.png}
+
+\subsection*{6 Comando CONTROL PANEL}
+\includegraphics[width=\textwidth]{SS 7.png}
+
+\subsection*{7 Comando DEL}
+\includegraphics[width=\textwidth]{SS 8.png}
+
+\subsection*{8 Comando IPCONFIG}
+\includegraphics[width=\textwidth]{SS 9.png}
+
+\subsection*{9 Comando RENAME}
+\includegraphics[width=\textwidth]{SS 10.png}
+
+\subsection*{10 Comando TASKLIST}
+\includegraphics[width=\textwidth]{SS 11.png}
+
+\subsection*{11 Comando EXIT}
+\includegraphics[width=\textwidth]{SS 12.png}
+
+\subsection*{12 Comando CHKDSK}
+Al principio cuando ejecuté el comando desde cmd principal me denegó el acceso, tras ver un vídeo en youtube y seguir la ruta \textbf{este equipo/disco local c/ windows/ y ejecutar cmd como administrador} me permitió probar el comando y este inicio a hacer un escaneo al disco. 
+\includegraphics[width=\textwidth]{SS 13.png}
+
+\includegraphics[width=\textwidth]{SS 14.png}
+
+\subsection*{13 Comando TYPE}
+Al ejecutar este comando me aparecieron una serie de símbolos los cuales son el texto que hay dentro del documento de word.
+
+\includegraphics[width=\textwidth]{SS 15.png}
+
+\subsection*{14 Comando MOVE}
+El archivo word paso del escritorio a la carpeta (users) en windows.
+
+\includegraphics[width=\textwidth]{SS 16.png}
+
+\subsection*{15 Comando NETSTAT}
+Carga una lista de las conexiones TCP/IP y muestra su estado 
+
+\includegraphics[width=\textwidth]{SS 17.png}
+
+\subsection*{16 Comando TIME}
+Muestra la hora exacta del equipo en formato de 24 horas
+
+\includegraphics[width=\textwidth]{SS 18.png}
+
+\subsection*{17 Comando VER}
+Muestra la versión actual de mi sistema operativo
+
+\includegraphics[width=\textwidth]{SS 19.png}
+
+\subsection*{18 Comando DRIVERQUERY}
+Abre una lista detallada sobre los drivers del pc
+
+\includegraphics[width=\textwidth]{SS 20.png}
+
+\subsection*{19 Comando TASKKILL /PID}
+Este comando sirve para cerrar un programa ejecutando el numero de este "proceso" el cual se puede encontrar en el administrador de tareas 
+
+\includegraphics[width=\textwidth]{SS 21.png}
+
+\subsection*{20 Comando SFC}
+Verificó el estado de algunos archivos y corrigió errores esto tomo algo de tiempo 
+
+\includegraphics[width=\textwidth]{SS 22.png}
+
+\subsection*{21 Comando DEFRAG}
+Inició la de fragmentación de los discos
+
+\includegraphics[width=\textwidth]{SS 23.png}
+
+\subsection*{22 Comando SHUTDOWN}
+Apagó el equipo
+
+\includegraphics[width=\textwidth]{SS 24.png}
+
+\subsection*{23 Comando LOGOFF}
+Cerro la sesión del equipo
+
+\includegraphics[width=\textwidth]{SS 25.png}
+
+\subsection*{24 Comando COLOR}
+Cambia el fondo en primer plano con el comando \textbf{Color #numero del color f}
+
+\includegraphics[width=\textwidth]{SS 26.png}
+
+\includegraphics[width=\textwidth]{SS 27.png}
+
+\includegraphics[width=\textwidth]{SS 28.png}
+
+\subsection*{25 Comando MORE}
+Deja espacio entre las lineas de la consola 
+
+\includegraphics[width=\textwidth]{SS 29.png}
+
+\subsection*{26 Comando PRINT}
+No me permitió ejecutar el comando 
+
+\includegraphics[width=\textwidth]{SS 30.png}
+
+\subsection*{27 Comando RECOVER}
+Este comando permite recuperar información de un disco dañado en mi caso no presento este inconveniente así que me presenta la instrucción
+
+\includegraphics[width=\textwidth]{SS 31.png}
+
+\subsubsection*{28 Comando FORMAT}
+No ejecuto este comando ya que trabajo desde mi computador personal, pero este sirve para formatear el disco duro 
+
+\includegraphics[width=\textwidth]{SS 32.png}
+\newpage
+
+\section*{Directorios y funciones de Windows parte 2}
+Comandos \textbf{HELP}, \textbf{CLS}, \textbf{DIR}, \textbf{CD ESCRITORIO}, \textbf{CD CURSO1}, \textbf{DEL CARTA1}. Ejecutados en la parte 1 del TASK 4.
+
+\subsection*{10 Comando CD ..}
+
+\includegraphics[width=\textwidth]{SS 33.png}
+
+\includegraphics[width=\textwidth]{SS 34.png}
+
+\subsection*{11 Comando MKDIR TUTORIAL}
+
+\includegraphics[width=\textwidth]{SS 35.png}
+
+\subsection*{13 Comando TREE}
+\includegraphics[width=\textwidth]{SS 36.png}
+
+\subsection*{14/15 Comando RENAME}
+Ejecutado en la parte 1 del TASK 
+
+\subsection*{16 Comando START EXCEL}
+
+\includegraphics[width=\textwidth]{SS 37.png}
+
+\subsubsection*{17 Comando STARTTASKMGR}
+
+\includegraphics[width=\textwidth]{SS 38.png}
+
+\includegraphics[width=\textwidth]{SS 39.png}
+\textbf{Procesos:}Muestra una lista detallada de cada uno de los procesos que se están llevando a cabo en el equipo. \textbf{Rendimiento:} Muestra una gráfica del rendimiento de cada uno de los componentes del pc como la CPU, memoria, red etc... \textbf{Historial de aplicaciones:}Muestra el uso que le ha dado cada una de las aplicaciones del equipo a sus componentes. \textbf{Inicio:}Muestra las aplicaciones que se ejecutan al iniciar el pc por ejemplo el antivirus y las copias de seguridad. \textbf{Usuarios:}Muestra cada uno de los usuarios del pc y los usos que le ha dado a los componentes. \textbf{Detalles:}Muestra todas las aplicaciones que se están ejecutando su código de ejecución y el tipo. \textbf{Servicios:}Muestra una lista de cada uno de los servicios en ejecución del dispositivo.
+
+\subsection*{18 Comando DXDIAG}
+
+\includegraphics[width=\textwidth]{SS 40.png}
+\textbf{Sistema:}Muestra información de diagnostico y detallada sobre el PC. \textbf{Pantalla:}Muestra información acerca de los controladores de pantalla de mi dispositivo. \textbf{Sonido:}Detalla las salidas de audio del pc. \textbf{Entrada:}Muestra información acerca de los dispositivos de entrada como el mouse, teclado, memorias usb, etc...
+
+\subsection*{19 Comando SYSTEMINFO}
+
+\includegraphics[width=\textwidth]{SS 41.png}
+
+\subsection*{20 Comando CONTROLPANEL}
+Ejecutado en la primera parte del TASK
+
+\subsection*{21 Comando PING (GOOGLE.COM)}
+
+\includegraphics[width=\textwidth]{SS 42.png}
+
+\subsection*{Comando PING 127.0.0.1}
+
+\includegraphics[width=\textwidth]{SS 43.png}
+
+\section{Ciclo2}
+\section*{Performance Equipo Virtual Linux}
+Al iniciar la maquina virtual esta iba un poco lenta abrí aplicaciones hasta llegar a un 88 en este punto la maquina iba bastante lento ya que tenia un total de 13 aplicaciones abiertas 
+
+\includegraphics[width=\textwidth]{SS 44.png}
+
+\includegraphics[width=\textwidth]{SS 45.png}
+
+\includegraphics[width=\textwidth]{SS 46.png}
+
+\includegraphics[width=\textwidth]{SS 47.png}
+
+\includegraphics[width=\textwidth]{SS 48.png}
+\newpage
+
+\section{Conclusiones}
+\begin{itemize}
+
+\item {\it Mediante la digitacion de distintos comandos en la consola CMD se logra tener nuevo conocimiento de funciones que se pueden realizar dentro de dicha consola }
+
+\item {\it Se trabaja en una máquina virtual con el sistema operativo linux ubuntu hasta llevarlo a un punto donde la maquina corre con bastante lentitud  } 
+
+\item {\it  Por medio de diferentes capturas de pantalla se ilustran cada uno de los comandos utilizados y el trabajo en la maquina virtual } 
+
+\end{itemize}
+
+\newpage
+
+\section{Bibliografía}
+\begin{itemize}
+\item https://distrotest.net/index.php
+\end{itemize}
+
+\end{document}
